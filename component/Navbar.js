@@ -75,8 +75,10 @@ export default function Navbar({ coins }) {
               { label: "Browse", href: "/user/browse", authOnly: false },
               { label: "Upload", href: "/user/upload", authOnly: true },
               { label: "Leaderboard", href: "/user/leaderboard", authOnly: false },
+               { label: "Upgrade Plan", href: "/Subscription-plan", authOnly: false },
               { label: "Approval", href: "/admin/approval", authOnly: true, adminOnly: true },
               { label: "Admin", href: "/admin/dashboard", authOnly: true, adminOnly: true },
+            
             ]
               .filter((item) => (!item.authOnly || session?.user) && (!item.adminOnly || isAdmin))
               .map(({ label, href }) => (

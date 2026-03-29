@@ -109,7 +109,7 @@ export default function SubscriptionPage() {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount: order.amount,
         currency: "INR",
-        name: "Pramanik AI",
+        name: "shubh",
         description: `${plan.name} Subscription (${currentBilling})`,
         order_id: order.id,
         handler: function (response) {
