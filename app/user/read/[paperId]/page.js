@@ -6,7 +6,7 @@ import { useRouter, useParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { Loader2, Lock, ArrowLeft, Building2, BookOpenText, GraduationCap, Calendar } from "lucide-react";
 import { checkUnlockedPapers } from "@/app/actions/paperActions";
-import CanvasPdfRenderer from "@/component/CanvasPdfRenderer";
+import CanvasPdfRenderer from "@/components/CanvasPdfRenderer";
 
 export default function ReadPaperPage() {
   const router = useRouter();

@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter, usePathname } from "next/navigation";
 import { Loader2 } from "lucide-react";
-import Navbar from "@/component/Navbar";
+import Navbar from "@/components/Navbar";
 
 export default function UserLayout({ children }) {
   const { data: session, status } = useSession();
