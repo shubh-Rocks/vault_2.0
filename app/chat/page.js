@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { easeInOut, easeOut, motion } from "framer-motion";
 import { SquareArrowOutUpLeft } from "lucide-react";
-import GenerateButton from "@/components/GenerateButton";
+import GenerateButton from "@/component/GenerateButton";
 
 export default function ChatPage() {
   const [messages, setMessages] = useState([]);
