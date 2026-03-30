@@ -71,7 +71,7 @@ export default function DashboardClient({ initialData }) {
   const premiumCtaHref =
     isPremium && featuredPaper
       ? mockPaperLink
-      : "/user/dashboard?upgrade=premium";
+      : "/Subscription-plan";
   const mockCtaLabel = isPremium
     ? featuredPaper
       ? "Generate mock →"
